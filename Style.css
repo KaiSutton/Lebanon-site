@@ -1,0 +1,26 @@
+h1{
+    color:darkblue;
+}
+
+/* How do I select for children of specific elements? */
+
+ul {
+    border: 5px double lightskyblue;
+    width: 50%;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+ul li {
+border: outset;
+display: inline-block;
+margin: auto;
+padding: 20px;
+}
+
+img {
+    margin: auto;
+}
+
