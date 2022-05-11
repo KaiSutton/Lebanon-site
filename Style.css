@@ -1,16 +1,24 @@
 h1{
-    color:darkblue;
+    color: darkgreen;
+    margin: center;
+    padding: 0;
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 150px;
+    
 }
 
 /* How do I select for children of specific elements? */
 
 ul {
-    border: 5px double lightskyblue;
-    width: 50%;
+    border: 5px double darkblue;
+    width: 18%;
     margin: auto;
     list-style: none;
     text-align: center;
     padding: 0;
+    font-size: 25px;
+    margin-top: -80px;
 }
 
 ul li {
@@ -22,5 +30,32 @@ padding: 20px;
 
 img {
     margin: auto;
+    
 }
 
+body {
+    background-color: rgb(0,100,0,0.2);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: 5px darkblue;
+    border-style: groove;
+    border-spacing: 30px;
+  }
+
+  h2{
+    color: darkgreen;
+    margin: center;
+    padding: 0;
+    text-align: center;
+    font-size: 150px;
+  }
+  
+  p{
+      font-size: 60px;
+      text-align: center;
+  }
